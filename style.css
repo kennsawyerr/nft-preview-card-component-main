@@ -21,6 +21,10 @@ body{
     background-color: #13274F;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h3{
@@ -105,7 +109,7 @@ background-image:none;
 
 .eye-container:hover{
   opacity: 1;
-  animation-delay: 3ms;
+  
 }
 
 hr{
